@@ -1,106 +1,89 @@
 module.exports = {
-  lang: 'en_US',
-  title: 'Fernando Falci',
-  toggle: 'Toggle navigation',
+    lang: 'en_US',
+    title: 'Gustavo Beligante',
+    toggle: 'Alternar navegação',
 
-  name: 'Fernando Falci',
-  developer: 'Developer',
+    name: 'Gustavo Beligante',
+    developer: 'desenvolvedor',
 
-  home: 'Home',
-  profile: {
-    title: 'Profile',
-    sub: 'Personal Profile',
-    text: `
-            <p>Hi, my name is Fernando Falci, I'm a web developer and I've been working in this area since my graduate, 5 years ago.</p>
-            <p>I started as a freelance, in small jobs, usually PHP and Javascript (Wordpress).</p>
-            <p>When I decided that I was ready for a professional experience, I started working at <a href="http://www.elotech.com.br" target="_blank">Elotech</a>. In that company I worked as a PHP developer, using Zend Framework e jQuery, in a project for health area.</p>
-            <p>Sometime after that, I switched the PHP for Java and the jQuery for AngularJS. I started a post-graduate course to help me in this switch. I did well. Meanwhile, I did an HTML5, CSS3 and Javascript certification, from Microsoft; and also an Associate Java 8 certification, from Oracle.</p>
-            <p>Now I'm at <a href="http://www.matera.com/en/" target="_blank">MATERA Systems</a>. I work in an international project, for one of the biggest telecommunication companies from the USA (in the Fortune 500 list). It's amazing how much new technologies we are using here: microservices, AWS cloud, several Netflix OSS projects: Eureka, Governator, Asgard, Archauis, Hysterix, Kayron, Zuul. I've learned new things like code review, scrum, different environments for each project phase (dev, test, prod).</p>
-            <p>Here we like to do lectures and workshops, for our colleagues and for the community. I took part in few of them: Docker, Cassandra, Meteor, Material Design. I also taught some: AngularJS, Chrome Inspector, Lambda (Java 8).</p>
-            <p>One year ago I started working on another project, part time, for <a href="http://www.mobile-di.com" target="_blank">Mobile DI</a>. I participated in a project so that voters can express an opinion on the bills of your region. Now I'm on another project, for a management of activities during development. In this project, we are using NodeJS and AngularJS. I'm managing a small team of 3 developers and 1 QA, it's challenging.</p>
-            <p>Well, this is just a resume of my professional experiences. Feel free to contact me.</p>`,
-  },
-  skills: {
-    title: 'Skills',
-    sub: 'A.K.A.: Keywords'
-  },
-  education: {
-    title: 'Education',
-    sub: 'The base of my knowledge',
-
-    cesumar: {
-      title: 'UniCesumar - Maringá',
-      sub: 'Java Postgraduate',
-      progress: 'In Progress',
-      text: 'The course has provided a thorough overview of Java and its related technologies in order to be able to choose those that meet the particular requirements of various fields of existing applications and is also able to develop systems in java applying object orientation and design patterns. Development in Java for desktop, web, mobile devices and enterprise environment was addressed.'
+    home: 'Home',
+    profile: {
+        title: 'Perfil',
+        sub: 'Perfil Pessoal',
+        text: `
+            <p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor fullstack e trabalho nessa área desde minha graduação, há quatro anos.</p>
+            <p>Comecei como estagiário na <a href="http://www.matera.com" target="_blank">MATERA Systems</a>, trabalhando no desenvolvimento de e-commerces.</p>
+            <p>Durante meu periodo de estagio, aprendi muito sobre este tipo de software e suas mais diversas regras de negócio, além disto, todos os e-commerces que desenvolvemos aguentaram o trafego de clientes (que chegou a ser de 1Mi de requisições simultâneas em um deles) sem prejudicar a experiência do usuário. Foram utilizadas diversas tecnologias para o desenvolvimento de tais e-commerces, como por exemplo: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 e entre outras</p>
+            <p>Alguns pré-requisitos das aplicações de e-Commerce, obrigaram-me a voltar a minha atenção para questões arquiteturais que permitissem que as aplicações desenvolvidas fossem escalaveis, elásticas e resilientes. Durante meu periodo como desenvolvedor de tais aplicações, dediquei-me a estudar estas questões, o resultado do esforço foi visto, como já citado, na capacidade de resposta demonstrada pelas aplicações quando grandes volumes de trafego agiam sobre as mesmas. </p>
+            <p>Após algum período trabalhando com os e-commerces, fui alocado para trabalhar em outro projeto o qual tive que me capacitar em React / Redux para desenvolver uma aplicação PWA (Progressive Web App).</p>
+            <p>Atualmente, trabalho AngularJS 2 e TypeScript no desenvolvimento single page application de um sistema de gestão.</p>
+            <p>Bem, esse é apenas um resumo das minhas experiências profissionais. Fique a vontate para entrar em contato e tirar qualquer dúvida. :)</p>`,
     },
-    unipar: {
-      title: 'UNIPAR - Guaíra',
-      sub: 'Analysis and Systems Development',
-      progress: '2010',
-      text: 'Kickoff of my professional career. The course provided a solid foundation for the development of systems.  Beginning of networking that keeps growing up. Laureate as best student of the course, consider this one of the most important steps in my career.'
-    }
-  },
-
-  experience: {
-    title: 'Experience',
-    sub: 'Some important companies of my professional career',
-
-    matera: {
-      title: 'MATERA Systems',
-      sub: 'Developer / Maringá, PR / 2014 - Current',
-      text: 'Acting as a developer on an outsourcing project for an US company. Keywords: Netflix OSS, Jersey, Rest API, micro-services, outsourcing.'
+    skills: {
+        title: 'Habilidades',
+        sub: 'Palavras-chave'
     },
-    confidential: {
-      title: 'Confidential',
-      sub: 'Developer / Maringá, PR / 2012 - 2014',
-      text: 'I worked in two different products. One facing the electoral data management and another for back office of a large supermarket chain. Keywords: Java, JSP, Oracle, outsourcing, Android.'
+    education: {
+        title: 'Graduação',
+        sub: 'Os pilares do meu conhecimento',
+
+        uem: {
+            title: 'Universidade Estadual de Maringá - Maringá',
+            sub: 'Bacharelado em Informática',
+            progress: '2016',
+            text: 'Graças ao curso, fui capaz de obter uma base sólida dos conceitos computacionais com os quais trabalh, o que em inúmeras vezes me ajudou durante a carreira profissional a encontrar a melhor solução a ser adotada. Considero a decisão de adentrar ao ensino superior umas das melhores decisões que já tomei.'
+        }
     },
-    elotech: {
-      title: 'Elotech',
-      sub: 'Developer / Maringá, PR / 2011 - 2012',
-      text: 'I worked on developing solutions in a healthcare software. Keywords: PHP, Zend Framework, jQuery, Postgres, Full Stack, UX.'
-    }
-  },
 
-  contact: {
-    title: 'Contact',
-    sub: 'Let\'s talk',
-    info: 'Contact information',
-    address: 'Maringá, Paraná, Brazil',
-    email: 'contact@falci.me',
-    phone: {
-      icon: '<i class="fa fa-phone"></i>',
-      number: '+55 (44) 9 8806-3145'
+    experience: {
+        title: 'Experiência',
+        sub: 'Algumas empresas importantes da minha carreira profissional',
+
+        matera: {
+            title: 'MATERA Systems',
+            sub: 'Desenvolvedor / Maringá, PR / 2013 - Atual',
+            text: 'Atuo como desenvolvedor em um projeto outsourcing para uma grande empresa do segmento de e-Commerce e BigData. Palavras chave: API Rest, micro-serviços, Java, Spring, <i>outsourcing</i>.'
+        },
     },
-    form: {
-      name: {
-        title: 'Name',
-        placeholder: 'Your name',
-        validation: 'Who are you?'
-      },
-      email: {
-        title: 'Email',
-        placeholder: 'Your email',
-        validation: 'Hand me your email so I can answer'
-      },
-      message: {
-        title: 'Message',
-        validation: 'Hmm.. type something...'
-      },
-      submit: 'Send Message',
-      success: 'Your message was sent.',
-      error: '<strong>Sorry, it looks like something is wrong with my email server...</strong> You can send a direct email to <a href="mailto:contato@falci.me">contato@falci.me</a>? Sorry for the inconvenience!'
-    }
-  },
 
-  lang1: { code: 'br', version: 'Versão em português' },
-  lang2: { code: 'es', version: 'Version en español' },
+    contact: {
+        title: 'Contato',
+        sub: 'Quer conversar?',
+        info: 'Informações de contato',
+        address: 'Maringá, PR, Brasil',
+        email: 'gustavobeligante@gmail.com',
+        phone: {
+            icon: '<i class="fa fa-phone"></i> / <i class="fa fa-whatsapp"></i>',
+            number: '(44) 9 9892-2935'
+        },
+        form: {
+            name: {
+                title: 'Nome',
+                placeholder: 'Seu name',
+                validation: 'Quem é você?'
+            },
+            email: {
+                title: 'Email',
+                placeholder: 'Seu email',
+                validation: 'Me passa seu email para eu poder responder'
+            },
+            message: {
+                title: 'Message',
+                validation: 'Ahh.. escreve algo...'
+            },
+            submit: 'Enviar mensagem',
+            success: 'Sua mensagem foi enviada.',
+            error: '<strong>Desculpe, parece que algo está errado com meu servidor de email...</strong> Você pode enviar um email direto para <a href="mailto:gustavobeligante@gmail.com">gustavobeligante@gmail.com</a>? Desculpe pela inconveniencia!'
+        }
+    },
 
-  social: {
-    linkedin: 'https://www.linkedin.com/in/fernandofalci/en'
-  },
+    lang1: { code: 'br', version: 'Versão em portugês' },
+    lang2: { code: 'es', version: 'Version en español' },
 
-  hireMe: 'Hire me',
-  quotation: 'Everything is going to be <u>200 OK</u>'
+    social: {
+        linkedin: 'https://www.linkedin.com/in/gustavobeligante'
+    },
+
+    hireMe: 'Contrate-me',
+    quotation: 'Don\'t let them kill your <b>vibes</b>'
 }

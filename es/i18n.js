@@ -1,3 +1,3 @@
 var lang = 'es_ES',
-  successMessage = 'Sua mensagem foi enviada.',
-  errorMessage = '<strong>Desculpe, parece que algo está errado com meu servidor de email...</strong> Você pode enviar um email direto para <a href="mailto:gustavobeligante@gmail.com">gustavobeligante@gmail.com</a>? Desculpe pela inconveniencia!';
+  successMessage = 'Su mensaje se ha enviado.',
+  errorMessage = '<strong>Lo sentimos, parece que algo está mal con mi servidor de correo ...</strong> Puede enviar un correo electrónico directamente a <a href="mailto:gustavobeligante@gmail.com">gustavobeligante@gmail.com</a>? ¡Disculpe por la inconveniencia!';

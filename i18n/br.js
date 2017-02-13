@@ -4,16 +4,16 @@ module.exports = {
   toggle: 'Alternar navegação',
 
   name: 'Gustavo Beligante',
-  developer: 'desenvolvedor',
+  developer: 'Desenvolvedor Fullstack',
 
   home: 'Home',
   profile: {
     title: 'Perfil',
     sub: 'Perfil Pessoal',
     text: `
-            <p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor fullstack e trabalho nessa área desde minha graduação, há quatro anos.</p>
+            <p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor fullstack e trabalho nessa área desde o início da minha graduação, há quatro anos.</p>
             <p>Comecei como estagiário na <a href="http://www.matera.com" target="_blank">MATERA Systems</a>, trabalhando no desenvolvimento de e-commerces.</p>
-            <p>Durante meu periodo de estagio, aprendi muito sobre este tipo de software e suas mais diversas regras de negócio, além disto, todos os e-commerces que desenvolvemos aguentaram o trafego de clientes (que chegou a ser de 1Mi de requisições simultâneas em um deles) sem prejudicar a experiência do usuário. Foram utilizadas diversas tecnologias para o desenvolvimento de tais e-commerces, como por exemplo: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 e entre outras</p>
+            <p>Durante meu periodo de estagio, aprendi muito sobre este tipo de software e suas mais diversas regras de negócio, além disto, todos os e-commerces que desenvolvemos suportaram o trafego de clientes (que chegou a ser de 1Mi de requisições simultâneas em um deles) sem prejudicar a experiência do usuário. Foram utilizadas diversas tecnologias para o desenvolvimento de tais e-commerces, como por exemplo: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 e entre outras</p>
             <p>Alguns pré-requisitos das aplicações de e-Commerce, obrigaram-me a voltar a minha atenção para questões arquiteturais que permitissem que as aplicações desenvolvidas fossem escalaveis, elásticas e resilientes. Durante meu periodo como desenvolvedor de tais aplicações, dediquei-me a estudar estas questões, o resultado do esforço foi visto, como já citado, na capacidade de resposta demonstrada pelas aplicações quando grandes volumes de trafego agiam sobre as mesmas. </p>
             <p>Após algum período trabalhando com os e-commerces, fui alocado para trabalhar em outro projeto o qual tive que me capacitar em React / Redux para desenvolver uma aplicação PWA (Progressive Web App).</p>
             <p>Atualmente, trabalho AngularJS 2 e TypeScript no desenvolvimento single page application de um sistema de gestão.</p>
@@ -31,7 +31,7 @@ module.exports = {
       title: 'Universidade Estadual de Maringá - Maringá',
       sub: 'Bacharelado em Informática',
       progress: '2016',
-      text: 'Graças ao curso, fui capaz de obter uma base sólida dos conceitos computacionais com os quais trabalh, o que em inúmeras vezes me ajudou durante a carreira profissional a encontrar a melhor solução a ser adotada. Considero a decisão de adentrar ao ensino superior umas das melhores decisões que já tomei.'
+      text: 'Graças ao curso, fui capaz de obter uma base sólida dos conceitos computacionais com os quais trabalho, o que em inúmeras vezes me ajudou durante a carreira profissional a encontrar a melhor solução a ser adotada. Considero a decisão de adentrar ao ensino superior umas das melhores decisões que já tomei.'
     }
   },
 

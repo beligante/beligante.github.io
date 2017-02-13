@@ -1,55 +1,55 @@
 module.exports = {
     lang: 'en_US',
     title: 'Gustavo Beligante',
-    toggle: 'Alternar navegação',
+    toggle: 'Toggle navigation',
 
     name: 'Gustavo Beligante',
-    developer: 'desenvolvedor',
+    developer: 'Fullstack Developer',
 
     home: 'Home',
     profile: {
-        title: 'Perfil',
-        sub: 'Perfil Pessoal',
+        title: 'Profile',
+        sub: 'Personal Profile',
         text: `
-            <p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor fullstack e trabalho nessa área desde minha graduação, há quatro anos.</p>
-            <p>Comecei como estagiário na <a href="http://www.matera.com" target="_blank">MATERA Systems</a>, trabalhando no desenvolvimento de e-commerces.</p>
-            <p>Durante meu periodo de estagio, aprendi muito sobre este tipo de software e suas mais diversas regras de negócio, além disto, todos os e-commerces que desenvolvemos aguentaram o trafego de clientes (que chegou a ser de 1Mi de requisições simultâneas em um deles) sem prejudicar a experiência do usuário. Foram utilizadas diversas tecnologias para o desenvolvimento de tais e-commerces, como por exemplo: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 e entre outras</p>
-            <p>Alguns pré-requisitos das aplicações de e-Commerce, obrigaram-me a voltar a minha atenção para questões arquiteturais que permitissem que as aplicações desenvolvidas fossem escalaveis, elásticas e resilientes. Durante meu periodo como desenvolvedor de tais aplicações, dediquei-me a estudar estas questões, o resultado do esforço foi visto, como já citado, na capacidade de resposta demonstrada pelas aplicações quando grandes volumes de trafego agiam sobre as mesmas. </p>
-            <p>Após algum período trabalhando com os e-commerces, fui alocado para trabalhar em outro projeto o qual tive que me capacitar em React / Redux para desenvolver uma aplicação PWA (Progressive Web App).</p>
-            <p>Atualmente, trabalho AngularJS 2 e TypeScript no desenvolvimento single page application de um sistema de gestão.</p>
-            <p>Bem, esse é apenas um resumo das minhas experiências profissionais. Fique a vontate para entrar em contato e tirar qualquer dúvida. :)</p>`,
+            <p>Hi, my name is Luis Gustavo Beligante, I'm a fullstack developer and work in this area since the beginning of my degree, four years ago.</p>
+            <p>I started as an intern at <a href="http://www.matera.com" target="_blank">MATERA Systems</a>, working on the development of e-commerces.</p>
+            <p>During my internship period, I learned a lot about this type of software and its many different business rules, in addition, all the e-commerces that we developed supported the traffic of clients (which came to be a million of simultaneous requests in one of them) Without harming the user experience. Several technologies were used for the development of such e-commerce, for example: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 and others</p>
+            <p>Some prerequisites for e-Commerce applications forced me to turn my attention to architectural issues that allowed developed applications to be scalable, elastic, and resilient. During my time as a developer of such applications, I devoted myself to studying these questions, the result of the effort was seen, as already mentioned, in the responsiveness demonstrated by the applications when large volumes of traffic acted on them.</p>
+            <p>After some time working with the e-commerces, I was allocated to work on another project which I had to train in React / Redux to develop a PWA (Progressive Web App) application.</p>
+            <p>I currently work AngularJS 2 and TypeScript on the single page application development of a management system.</p>
+            <p>Well, this is just a resume of my professional experiences. Feel free to contact me.</p>`,
     },
     skills: {
-        title: 'Habilidades',
-        sub: 'Palavras-chave'
+        title: 'Skills',
+        sub: 'A.K.A.: Keywords'
     },
     education: {
-        title: 'Graduação',
-        sub: 'Os pilares do meu conhecimento',
+        title: 'Education',
+        sub: 'The base of my knowledge',
 
         uem: {
-            title: 'Universidade Estadual de Maringá - Maringá',
-            sub: 'Bacharelado em Informática',
+            title: 'State University of Maringa - Maringa',
+            sub: 'Bachelor of Computer Science',
             progress: '2016',
-            text: 'Graças ao curso, fui capaz de obter uma base sólida dos conceitos computacionais com os quais trabalh, o que em inúmeras vezes me ajudou durante a carreira profissional a encontrar a melhor solução a ser adotada. Considero a decisão de adentrar ao ensino superior umas das melhores decisões que já tomei.'
+            text: 'Thanks to the course, I was able to get a solid foundation of the computational concepts with which I work, which has helped me during my professional career to find the best solution to be adopted. I consider the decision to enter higher education one of the best decisions I have ever made.'
         }
     },
 
     experience: {
-        title: 'Experiência',
-        sub: 'Algumas empresas importantes da minha carreira profissional',
+        title: 'Experience',
+        sub: 'Some important companies of my professional career',
 
         matera: {
             title: 'MATERA Systems',
-            sub: 'Desenvolvedor / Maringá, PR / 2013 - Atual',
-            text: 'Atuo como desenvolvedor em um projeto outsourcing para uma grande empresa do segmento de e-Commerce e BigData. Palavras chave: API Rest, micro-serviços, Java, Spring, <i>outsourcing</i>.'
+            sub: 'Fullstack Developer / Maringá, PR / 2013 - Atual',
+            text: 'I act as a developer in an outsourcing project for a large company in the e-Commerce segment and BigData. Keywords: API Rest, micro-services, Java, Spring, outsourcing.'
         },
     },
 
     contact: {
-        title: 'Contato',
-        sub: 'Quer conversar?',
-        info: 'Informações de contato',
+        title: 'Contact',
+        sub: 'Let\'s talk',
+        info: 'Contact information',
         address: 'Maringá, PR, Brasil',
         email: 'gustavobeligante@gmail.com',
         phone: {
@@ -58,22 +58,22 @@ module.exports = {
         },
         form: {
             name: {
-                title: 'Nome',
-                placeholder: 'Seu name',
-                validation: 'Quem é você?'
+                title: 'Name',
+                placeholder: 'What is your name?',
+                validation: 'Who are you?'
             },
             email: {
                 title: 'Email',
-                placeholder: 'Seu email',
-                validation: 'Me passa seu email para eu poder responder'
+                placeholder: 'your email',
+                validation: 'Hand me your email so I can answer'
             },
             message: {
                 title: 'Message',
-                validation: 'Ahh.. escreve algo...'
+                validation: 'Hmm.. type something...'
             },
-            submit: 'Enviar mensagem',
-            success: 'Sua mensagem foi enviada.',
-            error: '<strong>Desculpe, parece que algo está errado com meu servidor de email...</strong> Você pode enviar um email direto para <a href="mailto:gustavobeligante@gmail.com">gustavobeligante@gmail.com</a>? Desculpe pela inconveniencia!'
+            submit: 'Send Message',
+            success: 'Your message was sent.',
+            error: '<strong>Sorry, it looks like something is wrong with my email server ...</strong> You can send a direct email to <a href="mailto:gustavobeligante@gmail.com">gustavobeligante@gmail.com</a>? Sorry for the inconvenience!'
         }
     },
 

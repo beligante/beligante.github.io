@@ -84,6 +84,6 @@ module.exports = {
         linkedin: 'https://www.linkedin.com/in/gustavobeligante'
     },
 
-    hireMe: 'Contrate-me',
+    hireMe: 'Contratame',
     quotation: 'Don\'t let them kill your <b>vibes</b>'
 }

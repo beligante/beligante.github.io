@@ -10,14 +10,8 @@ module.exports = {
     profile: {
         title: 'Profile',
         sub: 'Personal Profile',
-        text: `
-            <p>Hi, my name is Luis Gustavo Beligante, I'm a fullstack developer and work in this area since the beginning of my degree, four years ago.</p>
-            <p>I started as an intern at <a href="http://www.matera.com" target="_blank">MATERA Systems</a>, working on the development of e-commerces.</p>
-            <p>During my internship period, I learned a lot about this type of software and its many different business rules, in addition, all the e-commerces that we developed supported the traffic of clients (which came to be a million of simultaneous requests in one of them) Without harming the user experience. Several technologies were used for the development of such e-commerce, for example: Spring, Mysql, Docker, Vagrant, REST, JSP, HTML5 and others</p>
-            <p>Some prerequisites for e-Commerce applications forced me to turn my attention to architectural issues that allowed developed applications to be scalable, elastic, and resilient. During my time as a developer of such applications, I devoted myself to studying these questions, the result of the effort was seen, as already mentioned, in the responsiveness demonstrated by the applications when large volumes of traffic acted on them.</p>
-            <p>After some time working with the e-commerces, I was allocated to work on another project which I had to train in React / Redux to develop a PWA (Progressive Web App) application.</p>
-            <p>I currently work AngularJS 2 and TypeScript on the single page application development of a management system.</p>
-            <p>Well, this is just a resume of my professional experiences. Feel free to contact me.</p>`,
+      text: `<p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor frontend e trabalho nessa área desde o início da minha graduação, há quase seis anos. Atualmente trabalho desenvolvendo aplicações web com React, porém no meu background tecnico eu já trabalhei com Java e NodeJS</p>
+          <p>Além das linguagens citadas, também já trabalhei com aplicações monoliticas, distribuidas em micro serviços, single page e server side rendered applications. No que tange gerenciamento de projetos já trabalhei com: Scrum, Kanban e XP</p>`
     },
     skills: {
         title: 'Skills',
@@ -38,12 +32,21 @@ module.exports = {
     experience: {
         title: 'Experience',
         sub: 'Some important companies of my professional career',
-
         matera: {
-            title: 'MATERA Systems',
-            sub: 'Fullstack Developer / Maringá, PR / 2013 - Atual',
-            text: 'I act as a developer in an outsourcing project for a large company in the e-Commerce segment and BigData. Keywords: API Rest, micro-services, Java, Spring, outsourcing.'
+        title: 'MATERA Systems',
+        sub: 'Software Engineering - Tech Lead - Team Lead / Maringá, PR / 2013 - 2018 (5 anos)',
+        text: 'Passei cerca de três anos desenvolvendo plataformas de e-commerce atuando como fullstack. Em outro momento passei a atuar em um projeto cujo requisito base era uma aplicação SSR com NodeJS e React. Palavras chave: React, Redux, Redux-Saga, NodeJS, SSR, REST, micro-serviços, Java, Spring'
         },
+        ac: {
+        title: 'Avenue Code',
+        sub: 'Software Engineering - Tech Lead - Team Lead / Belo Horizonte, MG / 2018 - 2018 (6 meses)',
+        text: 'Durante este periodo, desenvolvemos uma aplicação responsável por consumir dados de um stream de dados e se manter interativa enquanto o stream ainda estava ativo. Palavras Chave: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços, Java, Spring, Netflix OSS'
+        },
+        op: {
+        title: 'OpenProvider',
+        sub: 'Senior Software Engineering - UI Tech Lead / Maringá, PR / 2018 - Atual (REMOTO)',
+        text: 'Resposavel arquitetar e desenvolver uma serie de pequenas aplicações Web responsáveis pelo controle de diversar rotinas envolvendo Firewall, DNS e dominios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
+        }
     },
 
     contact: {

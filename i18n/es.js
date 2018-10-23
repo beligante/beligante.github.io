@@ -10,14 +10,8 @@ module.exports = {
     profile: {
         title: 'Perfil',
         sub: 'PERFIL PERSONAL',
-        text: `
-            <p>Hola, mi nombre es Luis Gustavo Beligante am fullstack desarrollador y el trabajo en esta área desde mi graduación, hace cuatro años.</p>
-            <p>Empecé como pasante en Sistemas de Matera, que trabaja en el desarrollo de e-Commerces.</p>
-            <p>Durante mi periodo de prácticas, he aprendido mucho acerca de este tipo de software y sus diversas reglas de negocio, además, todos los e-Commerces que desarrollamos resistieron el tráfico de clientes (que llegó a ser 1km de solicitudes simultáneas en una de ellas) sin afectar a la experiencia del usuario. Ellos utilizan diferentes tecnologías para el desarrollo de este tipo de correos comercios, tales como: primavera, Mysql, estibador, vagabundo, REST, JSP, HTML 5 y entre otras.</p>
-            <p>Algunos requisitos previos de aplicaciones de comercio electrónico, me obligaron a volver la atención a las cuestiones arquitectónicas que permitieron a las aplicaciones desarrolladas para ser escalable, elástica y resistente. Durante mi periodo como desarrollador de estas aplicaciones, me dediqué a estudiar estas cuestiones, el resultado del esfuerzo se vio como ya se ha mencionado, la capacidad de respuesta demostrada por las aplicaciones cuando grandes volúmenes de tráfico que actuaron en ellos.</p>
-            <p>Después de un período de trabajo con e-Commerces, me asignaron a trabajar en otro proyecto, que tuvo que permitirá reaccionar / Redux para desarrollar una aplicación PWA (Web App progresivo).</p>
-            <p>Actualmente, AngularJS 2 y mecanografiado de trabajar en el desarrollo de la aplicación de una sola página de un sistema de gestión.</p>
-            <p>Bueno, esto es sólo un resumen de mi experiencia profesional. Vontate llegar a ponerse en contacto y tener alguna pregunta. :)</p>`,
+        text: `<p>Olá, meu nome é Luis Gustavo Beligante, sou desenvolvedor frontend e trabalho nessa área desde o início da minha graduação, há quase seis anos. Atualmente trabalho desenvolvendo aplicações web com React, porém no meu background tecnico eu já trabalhei com Java e NodeJS</p>
+          <p>Além das linguagens citadas, também já trabalhei com aplicações monoliticas, distribuidas em micro serviços, single page e server side rendered applications. No que tange gerenciamento de projetos já trabalhei com: Scrum, Kanban e XP</p>`
     },
     skills: {
         title: 'Habilidades',
@@ -40,10 +34,20 @@ module.exports = {
         sub: 'Algunas empresas importantes de mi carrera profesional',
 
         matera: {
-            title: 'MATERA Systems',
-            sub: 'Desarrollador Fullstack / Maringá, PR / 2013 - Atual',
-            text: 'Yo trabajo como desarrollador en un proyecto de outsourcing para una compañía grande en el segmento de comercio electrónico y bigdata. Palabras clave: API Rest, micro-servicios, Java, Spring, <i>outsourcing</i>.'
+        title: 'MATERA Systems',
+        sub: 'Software Engineering - Tech Lead - Team Lead / Maringá, PR / 2013 - 2018 (5 anos)',
+        text: 'Passei cerca de três anos desenvolvendo plataformas de e-commerce atuando como fullstack. Em outro momento passei a atuar em um projeto cujo requisito base era uma aplicação SSR com NodeJS e React. Palavras chave: React, Redux, Redux-Saga, NodeJS, SSR, REST, micro-serviços, Java, Spring'
         },
+        ac: {
+        title: 'Avenue Code',
+        sub: 'Software Engineering - Tech Lead - Team Lead / Belo Horizonte, MG / 2018 - 2018 (6 meses)',
+        text: 'Durante este periodo, desenvolvemos uma aplicação responsável por consumir dados de um stream de dados e se manter interativa enquanto o stream ainda estava ativo. Palavras Chave: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços, Java, Spring, Netflix OSS'
+        },
+        op: {
+        title: 'OpenProvider',
+        sub: 'Senior Software Engineering - UI Tech Lead / Maringá, PR / 2018 - Atual (REMOTO)',
+        text: 'Resposavel arquitetar e desenvolver uma serie de pequenas aplicações Web responsáveis pelo controle de diversar rotinas envolvendo Firewall, DNS e dominios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
+        }
     },
 
     contact: {

@@ -41,12 +41,12 @@ module.exports = {
     ac: {
       title: 'Avenue Code',
       sub: 'Software Engineering - Tech Lead - Team Lead / Belo Horizonte, MG / 2018 - 2018 (6 meses)',
-      text: 'Durante este periodo, desenvolvemos uma aplicação responsável por consumir dados de um stream de dados e se manter interativa enquanto o stream ainda estava ativo. Palavras Chave: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços, Java, Spring, Netflix OSS'
+      text: 'Durante este período, desenvolvemos uma aplicação responsável por consumir dados de um stream de dados e se manter interativa enquanto o stream ainda estava ativo. Palavras Chave: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços, Java, Spring, Netflix OSS'
     },
     op: {
       title: 'OpenProvider',
       sub: 'Senior Software Engineering - UI Tech Lead / Maringá, PR / 2018 - Atual (REMOTO)',
-      text: 'Resposavel arquitetar e desenvolver uma serie de pequenas aplicações Web responsáveis pelo controle de diversar rotinas envolvendo Firewall, DNS e dominios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
+      text: 'Responsável arquitetar e desenvolver uma série de pequenas aplicações Web responsáveis pelo controle de diversas rotinas envolvendo Firewall, DNS e domínios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
     }
   },
 
@@ -90,4 +90,4 @@ module.exports = {
 
   hireMe: 'Contrate-me',
   quotation: 'Don\'t let them kill your <b>vibes</b>'
-}
+};

@@ -11,8 +11,8 @@ module.exports = {
     title: 'Profile',
     sub: 'Personal Profile',
     text: `<p>Olá, meu nome é Luis Gustavo Beligante. Sou desenvolvedor frontend e trabalho nessa área há quase seis anos. Atualmente, trabalho desenvolvendo aplicações web com React, porém já atuei como desenvolvedor fullstack trabalhando com as linguagens Java e NodeJS.</p>
-          <p>Sou muito familiar ao modelo de negócio de e-commerces, sendo que boa parte da minha experiência profissional é construída em cima desse tipo de sistema. Também tenho experiência com os mais diversos tipos de arquitetura de aplicações, como por exemplo: aplicações monolíticas, distribuídas em micro serviços, aplicações single page e server side rendered.</p>
-          <p>No que tange gerenciamento de projetos já atuei como líder de equipe, líder técnico e como arquiteto, além disso, trabalho desde o começo da minha carreira com equipes parcialmente ou totalmente remotas. Com relação a metodologias ágeis, tenho experiência com: Scrum, Kanban e XP</p>`
+          <p>Sou muito familiar ao modelo de negócio de e-commerces, sendo que boa parte da minha experiência profissional é construída em cima desse tipo de sistema. Também tenho experiência com os mais diversos tipos de arquiteturas de aplicações, como por exemplo: aplicações monolíticas, distribuídas em micro serviços, aplicações single page e server side rendered.</p>
+          <p>No que tange gerenciamento de projetos já atuei como líder de equipe, líder técnico e como arquiteto, além disso, trabalho desde o começo da minha carreira com equipes parcialmente ou totalmente remotas. Com relação a metodologias ágeis, tenho experiência com: Scrum, Kanban e XP.</p>`
   },
   skills: {
     title: 'Skills',
@@ -46,7 +46,7 @@ module.exports = {
     op: {
       title: 'OpenProvider',
       sub: 'Senior Software Engineering - UI Tech Lead / Maringá, PR / 2018 - Atual (REMOTO)',
-      text: 'Responsável arquitetar e desenvolver uma série de pequenas aplicações Web responsáveis pelo controle de diversas rotinas envolvendo Firewall, DNS e domínios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
+      text: 'Responsável por arquitetar e desenvolver uma série de pequenas aplicações Web responsáveis pelo controle de diversas rotinas envolvendo Firewall, DNS e domínios: React, Redux, Redux-Saga, NodeJS, SPA, REST, micro-serviços'
     }
   },
 
